@@ -17,7 +17,6 @@ A Streamlit-based chatbot application that uses RAG (Retrieval-Augmented Generat
 ```
 youtube_analysis/
 ├── .env                          # Environment variables (API tokens)
-├── .env.example                  # Example .env file template
 ├── .gitignore                    # Git ignore file
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
@@ -25,10 +24,10 @@ youtube_analysis/
 ├── config.py                     # Configuration management
 ├── src/
 │   ├── __init__.py
-│   ├── transcript_fetcher.py    # YouTube transcript fetching logic
+│   ├── transcript_fetcher.py     # YouTube transcript fetching logic
 │   ├── vector_store.py           # ChromaDB vector store management
-│   ├── rag_chain.py             # RAG chain creation and querying
-│   └── utils.py                 # Utility functions (URL parsing, etc.)
+│   ├── rag_chain.py              # RAG chain creation and querying
+│   └── utils.py                  # Utility functions (URL parsing, etc.)
 └── chroma_db/                    # ChromaDB storage directory (auto-created)
 ```
 
